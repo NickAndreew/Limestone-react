@@ -48,7 +48,9 @@ class Task extends Component {
 
             task = response.data.taskName;
             console.log(task);
-            this.removeTask(response);
+            if (window.confirm("Do you confirm delete of "+task+" ?")) {
+                this.removeTask(response);
+            } 
         }.bind(this));
     }
 
@@ -57,13 +59,10 @@ class Task extends Component {
             url: "https://limestone-tasks-assignment.herokuapp.com/tasks/"+e.data.taskID,
             method: "delete",
             headers: {'Access-Control-Allow-Origin': '*'}
-        }).then((response) => response.data)
-          .then(data => this.setState({ 
-            taskList: data 
-        }));
+        }).then((response) => response.data);
 
-        console.log(e.data.taskName+" has been removed.");
-        this.props.router.push('/');
+        alert(e.data.taskName+" has been removed.");
+        this.props.history.push('/');
     }
 
     render() {
