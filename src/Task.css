@@ -65,8 +65,16 @@
 
 .glyphicon-trash {
     padding:10px;
+    color: #b4ec5c !important;
+}
+
+.glyphicon-trash:hover {
+    padding:10px;
+    text-decoration: none !important;
+    color: firebrick !important;
 }
 
 .glyphicon-pencil {
     padding:10px;
 }
+

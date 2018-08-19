@@ -82,7 +82,7 @@ class Task extends Component {
                             <div className="col-sm-4 ">
                                 <div className="glyphs">
                                     <Link to={`/update-task/${data.taskID}`}><span className="glyphicon glyphicon-pencil"></span></Link>
-                                    <a onClick={this.handleRemoveClick.bind(this, data.taskID)}>
+                                    <a className="removeGlyph" onClick={this.handleRemoveClick.bind(this, data.taskID)}>
                                         <span className="glyphicon glyphicon-trash"></span>
                                     </a>
                                 </div>

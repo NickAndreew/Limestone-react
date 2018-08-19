@@ -49,11 +49,24 @@
 }
 
 .removeGlyph {
-    
+    text-decoration: none !important;
+    color: #350edf !important;
+}
+
+.removeGlyph:hover {
+    text-decoration: none !important;
+    color: firebrick !important;
 }
 
 a {
     cursor: pointer;
+    color: #b4ec5c !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color:#b4ec5c7a !important;
 }
 
 .taskLi {
