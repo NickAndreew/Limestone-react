@@ -83,7 +83,7 @@ class UpdateTask extends Component {
 				</div>
 				<div className="form-group">
 					<label htmlFor="name">Name:</label>
-					<input type="text" className="form-control" id="name" maxLength="35" ></input>
+					<input type="text" className="form-control" id="name" maxLength="25" ></input>
 
 					<label htmlFor="description">Description:</label>
 					<textarea className="form-control" rows="6" id="description" maxLength="750"></textarea>
