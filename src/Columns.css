@@ -96,7 +96,13 @@ a:hover {
     background: #555; 
 }
 
+.glyphicon-plus {
+    color: #374146;
+}
 
+.glyphicon-plus:hover {
+    color: darkgreen;
+}
 
 
 /* Popup container - can be anything you want */
