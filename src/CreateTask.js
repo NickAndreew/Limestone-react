@@ -69,7 +69,7 @@ class CreateTask extends Component {
                     </select>
 
                     <div className="buttons">
-                        <Link className="button" to="/"><button>Cencel</button></Link>
+                        <Link className="button" to="/"><button>Cancel</button></Link>
                         <button className="submit" onClick={this.handleCreateTaskClick}>Create Task</button>
                     </div>
                 </div>
