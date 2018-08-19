@@ -63,8 +63,7 @@ class Task extends Component {
         }));
 
         console.log(e.data.taskName+" has been removed.");
-        // this.props.history.push('/');
-        window.location.href("https://limestone-todo.herokuapp.com/");
+        this.props.router.push('/');
     }
 
     render() {
