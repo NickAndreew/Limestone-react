@@ -42,6 +42,8 @@
 .taskList {
     color: white !important;
     margin-left: -5px;
+    overflow-y: auto;
+    max-height: 480px;
 }
 
 .olCl {
@@ -74,11 +76,25 @@ a:hover {
 
 }
  
+/* width */
+.taskList::-webkit-scrollbar {
+    width: 10px;
+}
 
+/* Track */
+.taskList::-webkit-scrollbar-track {
+    background: #222; 
+}
+ 
+/* Handle */
+.taskList::-webkit-scrollbar-thumb {
+    background: #888; 
+}
 
-
-
-
+/* Handle on hover */
+.taskList::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
 
 
 
