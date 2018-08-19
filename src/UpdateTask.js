@@ -95,8 +95,8 @@ class UpdateTask extends Component {
 						<option value="DONE">DONE</option>
 					</select>
 					<div className="buttons">
-						<Link to='/'><button>Cencel</button></Link>
-						<button onClick={this.handleUpdateTaskClick}>Update Task</button>
+						<Link className="button" to='/'><button>Cencel</button></Link>
+						<button className="submit" onClick={this.handleUpdateTaskClick}>Update Task</button>
 					</div>
 
 				</div>

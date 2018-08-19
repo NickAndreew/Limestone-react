@@ -79,3 +79,18 @@
     padding:10px;
 }
 
+.button {
+    color:#222 !important;
+}
+
+.button:hover {
+    color:rgb(0, 0, 0) !important;
+}
+
+.submit {
+    color:#222 !important;
+}
+
+.submit:hover {
+    color:rgb(29, 148, 25) !important;
+}
