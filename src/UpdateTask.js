@@ -62,12 +62,11 @@ class UpdateTask extends Component {
 				status: status
 			}
 		}).then(function (response) {
-
+			alert(name+" has been updated!");
 			this.props.history.push('/');
 
 		}.bind(this));
 
-		console.log("Update Task component has finished loading.");
 	}
 
 	render() {

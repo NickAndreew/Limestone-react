@@ -20,6 +20,7 @@
     color: white;
     padding-top: 20px;
     padding: 40px;
+    white-space: pre-wrap;
 }
 
 .buttons {
